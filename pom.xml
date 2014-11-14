@@ -13,6 +13,12 @@
     </properties>
 
     <build>
+        <sourceDirectory>jvmtop/src</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>jvmtop/res/</directory>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
